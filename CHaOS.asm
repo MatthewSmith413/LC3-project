@@ -12,7 +12,7 @@ TRAP x01 ; jump to the OS
 .FILL x04a0 ; IN
 .FILL x04e0 ; PUTSP
 .FILL xfd70 ; HALT
-.BLKW x1ea
+.BLKW x1da
 
 OS_START
 
